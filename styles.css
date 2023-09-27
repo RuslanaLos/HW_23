@@ -1,0 +1,35 @@
+#users {
+  padding: 10px;
+}
+#users > div {
+  display: flex;
+  gap: 10px;
+  margin: 5px;
+}
+
+.actions > input {
+  margin-right: 5px;
+}
+
+#form form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.userInfo{
+  display: block!important;
+}
+
+.red_border {
+  border: red 1px solid;
+  width: 194px;
+  height: 17.5px;
+  border-radius: 3px;
+}
+.hidden {
+  display: none;
+}
+
+#deleting input{
+  margin: 0 5px;
+}
